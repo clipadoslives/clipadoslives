@@ -262,10 +262,14 @@ body {
 }
 
 .youtube { background: rgba(255, 0, 0, 0.1); border: 1px solid #ff0000; color: #ff4d4d; }
-.youtube:hover { background: #ff0000; color: #fff; box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); }
+.youtube:hover { background: #ff0000; color: #fff; box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); 
+cursor: pointer;
+}
 
 .twitch { background: rgba(145, 70, 255, 0.1); border: 1px solid #9146ff; color: #a970ff; }
-.twitch:hover { background: #9146ff; color: #fff; box-shadow: 0 0 20px rgba(145, 70, 255, 0.4); }
+.twitch:hover { background: #9146ff; color: #fff; box-shadow: 0 0 20px rgba(145, 70, 255, 0.4);
+cursor: pointer;
+}
 
 .mission-statement {
     margin-top: 30px;
