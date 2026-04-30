@@ -337,6 +337,21 @@ body {
         font-size: 1.5rem;
     }
 }
-#cardlives{
-  color: red;
+#cardlives {
+    color: #ff4d4d; /* Um vermelho mais vibrante */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+    animation: neon-pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-pulse {
+    from {
+        text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+        opacity: 1;
+    }
+    to {
+        text-shadow: 0 0 10px #ff0000, 0 0 20px #ff4d4d, 0 0 30px #ff4d4d;
+        opacity: 0.8;
+    }
 }
