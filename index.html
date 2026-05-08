@@ -5,7 +5,7 @@
     <title>Clipados Lives</title>
     <!-- Importação da Squada One -->
     <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
-    <!-- Font Awesome para os ícones das redes sociais -->
+    <!-- Font Awesome para ícones das redes sociais -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -38,10 +38,12 @@
         <section id="home" class="hero-grid reveal">
             <div class="hero-main-card video-only-card" id="mainCard">
                 <div class="video-container-full">
-                    <iframe  src="https://player.twitch.tv/?video=1888010892&parent=clipadoslives.github.io&autoplay=true&muted=true" 
+                    <!-- Player adaptado para o domínio clipadoslives.github.io -->
+                    <iframe 
+                        src="https://player.twitch.tv/?video=1888010892&parent=clipadoslives.github.io&autoplay=true&muted=true" 
                         allow="autoplay; fullscreen" allowfullscreen="true">
                     </iframe>
-                 </div>
+                </div>
             </div>
             
             <div class="hero-stats-card">
@@ -78,11 +80,20 @@
                         
                         <p><span class="highlight-icon">🔥</span> ATUALMENTE TENHO CANAIS DE CONTEÚDO DIÁRIOS NAS PLATAFORMAS:</p>
                         
+                        <!-- Botões de Redes Sociais com links atualizados -->
                         <div class="platforms">
-                            <span class="badge youtube"><i class="fa-brands fa-youtube"></i> YOUTUBE</span>
-                            <span class="badge twitch"><i class="fa-brands fa-twitch"></i> TWITCH</span>
-                            <span class="badge instagram"><i class="fa-brands fa-instagram"></i> INSTAGRAM</span>
-                            <span class="badge tiktok"><i class="fa-brands fa-tiktok"></i> TIKTOK</span>
+                            <a href="https://www.youtube.com/@CLIPADOSLIVES" target="_blank" class="badge youtube">
+                                <i class="fa-brands fa-youtube"></i> YOUTUBE
+                            </a>
+                            <a href="https://www.twitch.tv/clipados_lives" target="_blank" class="badge twitch">
+                                <i class="fa-brands fa-twitch"></i> TWITCH
+                            </a>
+                            <a href="https://www.instagram.com/clipados_livesoficial/" target="_blank" class="badge instagram">
+                                <i class="fa-brands fa-instagram"></i> INSTAGRAM
+                            </a>
+                            <a href="https://www.tiktok.com/@clipados_lives" target="_blank" class="badge tiktok">
+                                <i class="fa-brands fa-tiktok"></i> TIKTOK
+                            </a>
                         </div>
                         
                         <p class="mission-statement">
