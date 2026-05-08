@@ -454,3 +454,54 @@ cursor: pointer;
     }
 }
 
+/*redes sociais*/
+
+/* Ajuste geral para os ícones nos badges */
+.badge i {
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+/* Estilo Instagram */
+.instagram { 
+    background: rgba(225, 48, 108, 0.1); 
+    border: 1px solid #e1306c; 
+    color: #ff5d94; 
+}
+.instagram:hover { 
+    background: #e1306c; 
+    color: #fff; 
+    box-shadow: 0 0 20px rgba(225, 48, 108, 0.4); 
+    cursor: pointer;
+}
+
+/* Estilo TikTok */
+.tiktok { 
+    background: rgba(0, 0, 0, 0.2); 
+    border: 1px solid #00f2ea; 
+    color: #00f2ea; 
+    /* Efeito de sombra dupla característico do TikTok */
+    text-shadow: 1px 1px #ff0050; 
+}
+.tiktok:hover { 
+    background: #000; 
+    color: #fff; 
+    box-shadow: 0 0 20px rgba(0, 242, 234, 0.3); 
+    cursor: pointer;
+}
+
+/* Responsividade: Garante que os 4 botões fiquem bem distribuídos */
+@media (max-width: 600px) {
+    .platforms {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .badge {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
