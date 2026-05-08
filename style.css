@@ -505,3 +505,46 @@ cursor: pointer;
         align-items: center;
     }
 }
+
+.platforms {
+    margin: 25px 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* Garante que os botões quebrem linha se necessário */
+}
+
+.badge {
+    padding: 10px 25px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Ajuste para o ícone */
+.badge i {
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+/* Youtube */
+.youtube { background: rgba(255, 0, 0, 0.1); border: 1px solid #ff0000; color: #ff4d4d; }
+.youtube:hover { background: #ff0000; color: #fff; box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); }
+
+/* Twitch */
+.twitch { background: rgba(145, 70, 255, 0.1); border: 1px solid #9146ff; color: #a970ff; }
+.twitch:hover { background: #9146ff; color: #fff; box-shadow: 0 0 20px rgba(145, 70, 255, 0.4); }
+
+/* Instagram */
+.instagram { background: rgba(225, 48, 108, 0.1); border: 1px solid #e1306c; color: #ff5d94; }
+.instagram:hover { background: #e1306c; color: #fff; box-shadow: 0 0 20px rgba(225, 48, 108, 0.4); }
+
+/* TikTok */
+.tiktok { background: rgba(0, 0, 0, 0.2); border: 1px solid #00f2ea; color: #00f2ea; text-shadow: 1px 1px #ff0050; }
+.tiktok:hover { background: #000; color: #fff; box-shadow: 0 0 20px rgba(0, 242, 234, 0.3); }
